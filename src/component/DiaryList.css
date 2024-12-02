@@ -1,0 +1,38 @@
+.DiaryList {
+}
+
+.DiaryList .menu_wrapper {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.DiaryList .left_col select {
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ececec;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    cursor: pointer;
+    font-family: "Nanum Pen Script";
+    font-size: 18px;
+}
+
+.DiaryList .menu_wrapper .right_col {
+    flex-grow: 2;
+}
+/*
+    https://developer.mozilla.org/ko/docs/Web/CSS/flex-grow
+    flex-grow: flex-item 요소가, flex-container 요소 내부에서 할당 가능한 공간의 정도를 선언
+    1; 동일한 크기
+*/
+
+.DiaryList .menu_wrapper .right_col button {
+    width: 100%;
+}

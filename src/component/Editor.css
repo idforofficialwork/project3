@@ -1,0 +1,55 @@
+.Editor {
+
+}
+
+.Editor .editor_section {
+    margin-bottom: 40px;
+}
+
+.Editor h4 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Editor input, textarea {
+    border: none;
+    border-radius: 5px;
+    background-color: #ececec;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Nanum Pen Script";
+}
+
+.Editor input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.Editor textarea {
+    width: 100%;
+    min-height: 200px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.Editor bottom_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Editor .emotion_list_wrapper {
+    display: flex;
+    justify-content: space-around; 
+    gap: 2%;
+}
+/* 
+    space-around: 아이템들의 “둘레(around)”에 균일한 간격을 만들어 줍니다. (https://studiomeal.com/archives/197)
+    gap: 행과 열 사이의 간격 설정 (https://developer.mozilla.org/ko/docs/Web/CSS/gap)
+    gap: [상하좌우 전체의 값];
+    gap: [상하 사이의값] [좌우 사이의값];
+    출처: https://inpa.tistory.com/entry/CSS-📚-최신-CSS-기능-🎨-flexbox-gap [Inpa Dev 👨‍💻:티스토리]
+    %  : percent, 기본글꼴의 크기에 대하여 상대적인 값을 가짐.  https://zinee-world.tistory.com/131
+*/
+

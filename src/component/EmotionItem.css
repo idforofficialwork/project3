@@ -1,0 +1,54 @@
+.EmotionItem {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*
+    flex-direction: 플렉스 컨테이너 내의 아이템을 배치할 때 사용할 주축 및 방향(정방향, 역방향)을 지정, 
+        - column: 새로 배치
+    justify-content : 가로 축을 기준으로 좌우에 대한 정렬을 관장 합니다.
+    align-items: 세로 축 기준 상하 정렬 관장
+        - center: 가운데 배치
+*/
+
+.EmotionItem img {
+    width: 50%;
+    margin-bottom: 50%;
+}
+
+.EmotionItem span {
+    font-size: 18px;
+}
+
+.EmotionItem_off {
+    background-color: #ececec;
+}
+
+.EmotionItem_on_1 {
+    background-color: #64c964;
+    color: white;
+}
+
+.EmotionItem_on_2 {
+    background-color: #9dd772;
+    color: white;
+}
+
+.EmotionItem_on_3 {
+    background-color: #fdce17;
+    color: white;
+}
+
+.EmotionItem_on_4 {
+    background-color: #fd8446;
+    color: white;
+}
+
+.EmotionItem_on_5 {
+    background-color: #fd565f;
+    color: white;
+}
